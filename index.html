@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brayan Gómez Amaya</title>
+<meta name="description" content="Ingeniero de Minas. Planeación minera de corto plazo, Deswik, analítica de datos aplicada a operaciones a cielo abierto.">
+<style>
+:root{
+  --bg:#ffffff; --fg:#14181f; --muted:#5b6472; --line:#e3e7ed;
+  --accent:#1f3864; --accent-soft:#eef2f8; --card:#ffffff;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0f1319; --fg:#e8ecf2; --muted:#98a2b3; --line:#232b36;
+    --accent:#7aa2e3; --accent-soft:#18202c; --card:#141a22;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0f1319; --fg:#e8ecf2; --muted:#98a2b3; --line:#232b36;
+  --accent:#7aa2e3; --accent-soft:#18202c; --card:#141a22;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--sans);
+  line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:820px;margin:0 auto;padding:0 16px}
+a{color:var(--accent)}
+
+header{padding:64px 0 40px;border-bottom:1px solid var(--line)}
+h1{font-size:clamp(1.9rem,5vw,2.6rem);margin:0 0 6px;letter-spacing:-.02em;line-height:1.15}
+.role{color:var(--accent);font-weight:600;font-size:1.02rem;margin:0 0 14px}
+.contact{color:var(--muted);font-size:.9rem;margin:0;display:flex;flex-wrap:wrap;gap:6px 14px}
+.contact a{text-decoration:none}
+.contact a:hover{text-decoration:underline}
+
+section{padding:40px 0;border-bottom:1px solid var(--line)}
+h2{font-size:.78rem;text-transform:uppercase;letter-spacing:.11em;color:var(--accent);
+  margin:0 0 18px;font-weight:700}
+h3{font-size:1.02rem;margin:0 0 4px;font-weight:650}
+p{margin:0 0 14px}
+.lead{font-size:1.02rem}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:22px 0 0}
+.stat{background:var(--accent-soft);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.stat b{display:block;font-size:1.5rem;letter-spacing:-.02em;color:var(--accent);line-height:1.2}
+.stat span{font-size:.79rem;color:var(--muted);display:block;margin-top:2px}
+
+.proj{border:1px solid var(--line);background:var(--card);border-radius:12px;
+  padding:20px;margin-bottom:14px}
+.proj h3 a{text-decoration:none}
+.proj h3 a:hover{text-decoration:underline}
+.proj p{color:var(--muted);font-size:.93rem;margin:6px 0 12px}
+.tags{display:flex;flex-wrap:wrap;gap:6px}
+.tag{font-family:var(--mono);font-size:.71rem;background:var(--accent-soft);
+  color:var(--accent);border:1px solid var(--line);border-radius:5px;padding:3px 8px}
+.soon{opacity:.62}
+.soon h3{color:var(--muted)}
+
+.item{margin-bottom:20px}
+.item .meta{color:var(--muted);font-size:.86rem;margin:0 0 6px}
+.item ul{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:.93rem}
+.item li{margin-bottom:4px}
+
+table{width:100%;border-collapse:collapse;font-size:.89rem}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:.76rem;text-transform:uppercase;letter-spacing:.06em}
+td.n{white-space:nowrap;color:var(--muted);font-family:var(--mono);font-size:.83rem}
+.tw{overflow-x:auto}
+
+footer{padding:32px 0 56px;color:var(--muted);font-size:.84rem}
+.note{font-size:.84rem;color:var(--muted);background:var(--accent-soft);
+  border:1px solid var(--line);border-left:3px solid var(--accent);
+  border-radius:0 8px 8px 0;padding:12px 14px;margin:18px 0 0}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <h1>Brayan Gómez Amaya</h1>
+    <p class="role">Ingeniero de Minas · Planeación minera de corto plazo · Deswik</p>
+    <p class="contact">
+      <span>Valledupar, Cesar, Colombia</span>
+      <a href="mailto:brayanjh9874@gmail.com">brayanjh9874@gmail.com</a>
+      <a href="https://linkedin.com/in/brayan-gomez-amaya-5b44b515b">LinkedIn</a>
+      <span>Inglés B2 · Aptis, British Council</span>
+    </p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <h2>Perfil</h2>
+    <p class="lead">Ingeniero de Minas con experiencia en ingeniería y planeación de mina en
+    operación de carbón a cielo abierto. Mi trabajo se centró en el soporte técnico diario a
+    la operación: cálculo del Shovel Volume para la reunión de prioridades con Producción,
+    reporte de movimiento de material de palas y dragalinas, cartografía de voladuras,
+    actualización topográfica a partir de vuelos y mantenimiento del mapa de vías del complejo.</p>
+    <p>Complemento esa base operativa con formación en analítica de datos y Business
+    Intelligence. Este portafolio reúne trabajos que reproducen, con datos sintéticos o
+    públicos, el tipo de análisis que sustenta la planeación de corto plazo.</p>
+
+    <div class="stats">
+      <div class="stat"><b>181 h</b><span>Formación en Deswik</span></div>
+      <div class="stat"><b>145 h</b><span>Planeación corto plazo y flota</span></div>
+      <div class="stat"><b>662 h</b><span>Formación especializada total</span></div>
+      <div class="stat"><b>B2</b><span>Inglés certificado</span></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Proyectos</h2>
+
+    <div class="proj">
+      <h3><a href="proyectos/01-shovel-volume/">Shovel Volume y priorización de frentes</a></h3>
+      <p>Cálculo del volumen de roca disponible por pala, conversión BCM a LCM y toneladas,
+      autonomía por equipo de cargue, descomposición del tiempo de ciclo y ranking de frentes
+      según volumen y distancia de acarreo. Reproduce el análisis que sustenta la reunión
+      diaria de prioridades con Producción.</p>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">BCM / LCM</span>
+        <span class="tag">Tiempo de ciclo</span><span class="tag">Priorización de frentes</span>
+        <span class="tag">Datos sintéticos</span>
+      </div>
+    </div>
+
+    <div class="proj">
+      <h3><a href="proyectos/02-reglas-dependencia/">Reglas de dependencia automática y validación del grafo</a></h3>
+      <p>Motor que genera relaciones de precedencia a partir de los atributos de las actividades:
+      acceso, banco descendente, horizonte, avance techo-piso y secuencia de fases. Incluye
+      detección de ciclos, actividades huérfanas y alcanzabilidad, más programación por fechas
+      tempranas y ruta crítica. Seis reglas producen 498 dependencias sobre 255 actividades.</p>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">Secuenciamiento</span>
+        <span class="tag">Grafos</span><span class="tag">Ruta crítica</span>
+        <span class="tag">Datos sintéticos</span>
+      </div>
+    </div>
+
+    <div class="proj soon">
+      <h3>Nivelación de recursos y dimensionamiento de flota</h3>
+      <p>Extensión del modelo de secuenciamiento con restricción de equipo de cargue y
+      cálculo del número de camiones requerido por frente según tiempo de ciclo.</p>
+      <div class="tags">
+        <span class="tag">Python</span><span class="tag">Nivelación de recursos</span>
+        <span class="tag">Flota</span><span class="tag">En preparación</span>
+      </div>
+    </div>
+
+    <div class="proj soon">
+      <h3>Análisis espacial de títulos mineros</h3>
+      <p>Procesamiento del catastro minero y de la cartografía base con datos abiertos de la
+      ANM y el SGC: cruce de títulos con áreas de interés y generación de cartografía temática.</p>
+      <div class="tags">
+        <span class="tag">QGIS</span><span class="tag">Python</span>
+        <span class="tag">Datos abiertos ANM / SGC</span><span class="tag">En preparación</span>
+      </div>
+    </div>
+
+    <div class="note">Todos los proyectos usan datos sintéticos generados
+    aleatoriamente o datos públicos de acceso abierto. Ninguno contiene información
+    operativa, cartográfica o de producción de compañía alguna.</div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Experiencia</h2>
+
+    <div class="item">
+      <h3>Practicante de Ingeniería de Minas — Ingeniería y Planeación de Mina</h3>
+      <p class="meta">Drummond Ltd. · Complejo carbonífero a cielo abierto, La Loma, Cesar · Dic 2022 – Jun 2023</p>
+      <ul>
+        <li>Cálculo diario del Shovel Volume y presentación en la reunión de prioridades con Producción</li>
+        <li>Reporte de movimiento de material de palas y dragalinas frente a metas de producción</li>
+        <li>Cartografía diaria de voladuras por pit y update diario de la mina</li>
+        <li>Actualización topográfica a partir de vuelos de levantamiento</li>
+        <li>Mantenimiento del mapa de vías e infraestructura del complejo</li>
+        <li>Apoyo a la implementación del secuenciamiento en Deswik</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3>Joven Investigador — Minciencias</h3>
+      <p class="meta">Fundación Universitaria del Área Andina · Valledupar, Cesar · Jul 2025 – Jul 2026</p>
+      <ul>
+        <li>Ejecución del plan de trabajo anual del proyecto de investigación avalado por Minciencias</li>
+        <li>Tratamiento estadístico de datos en Python y R</li>
+        <li>Cartografía temática y análisis geoespacial en ArcGIS y QGIS</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Formación especializada</h2>
+    <div class="tw">
+      <table>
+        <thead><tr><th>Programa</th><th>Entidad</th><th>Horas</th></tr></thead>
+        <tbody>
+          <tr><td>Planificación Minera a Corto y Largo Plazo y Gestión de Flota</td><td>Escuela Global, Perú</td><td class="n">145</td></tr>
+          <tr><td>Planeamiento, Secuenciamiento y Diseño con Deswik.CAD, IS y Sched</td><td>Escuela Global, Perú</td><td class="n">128</td></tr>
+          <tr><td>Deswik Long Term Planning Module (CAD, IS, Sched, LHS)</td><td>JamFadge Civil Engineers, Sudáfrica</td><td class="n">35</td></tr>
+          <tr><td>Planificación Minera Interactiva con Deswik.IS y Deswik.Sched</td><td>Salcantay Minería, Perú</td><td class="n">18</td></tr>
+          <tr><td>Diseño de Mina a Tajo Abierto con Vulcan 12</td><td>Global Mining Academy, Perú</td><td class="n">16</td></tr>
+          <tr><td>Inteligencia de Negocios y Gestión de Bases de Datos</td><td>Escuela Global, Perú</td><td class="n">250</td></tr>
+          <tr><td>Aptis General — Inglés B2 (MCER), 152/200</td><td>British Council</td><td class="n">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Formación académica</h2>
+    <div class="tw">
+      <table>
+        <tbody>
+          <tr><td>Ingeniería de Minas</td><td>Fundación Universitaria del Área Andina</td><td class="n">2018–2023</td></tr>
+          <tr><td>Máster en Gestión Empresarial</td><td>Universidad Europea de Monterrey</td><td class="n">2024–2026</td></tr>
+          <tr><td>MBA en Business Intelligence y Big Data</td><td>Instituto Europeo de Posgrados, España</td><td class="n">2024–2026</td></tr>
+          <tr><td>Desarrollo de Software y Aplicaciones Móviles</td><td>MinTIC / UTP</td><td class="n">2022–2023</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    Brayan Joseph Gómez Amaya · Ingeniero de Minas ·
+    <a href="mailto:brayanjh9874@gmail.com">brayanjh9874@gmail.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
