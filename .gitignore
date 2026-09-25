@@ -1,0 +1,4 @@
+datos/
+salidas/
+__pycache__/
+*.pyc
