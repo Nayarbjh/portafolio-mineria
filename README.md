@@ -7,15 +7,10 @@ aplicada a operaciones a cielo abierto.
 
 ---
 
-## Sobre estos repositorios
+## Sobre estos proyectos
 
-Trabajos que reproducen, con **datos sintéticos o públicos**, el tipo de análisis que
-sustenta la planeación de corto plazo en minería a cielo abierto.
-
-> Ningún proyecto de este repositorio contiene información operativa, cartográfica,
-> de producción o de cualquier otra naturaleza perteneciente a compañía alguna. Los
-> datos se generan aleatoriamente mediante scripts incluidos, o provienen de fuentes
-> públicas de acceso abierto.
+Análisis aplicados a la planeación de corto plazo en minería a cielo abierto. Los datos
+de entrada son sintéticos y se generan con los scripts incluidos en cada proyecto.
 
 ---
 
